@@ -38,7 +38,7 @@ namespace DataLayer.Libs.Helpers.Net
 
         public void Send()
         {
-            WebRequest request = WebRequest.Create("http://www.contoso.com/default.html");
+            WebRequest request = WebRequest.Create(this.GetServerName());
             request.Method = this.Method;
             request.BeginGetRequestStream(streamCallback, request);
         }
@@ -59,17 +59,15 @@ namespace DataLayer.Libs.Helpers.Net
         {
             HttpWebRequest request = (HttpWebRequest)asynchronousResult.AsyncState;
 
-            //Stream postStream = request.EndGetRequestStream(asynchronousResult);
+            string postData = StringHelper.URLEncode(this.Params);
 
-            string postData = this.PrepareRequest();
-
-            byte[] byteArray = Encoding.UTF8.GetBytes(postData);
+            byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(postData);
 
             using (Stream postStream = request.EndGetRequestStream(asynchronousResult))
             {
                 postStream.Write(byteArray, 0, postData.Length);
             }
-            
+
             request.BeginGetResponse(new AsyncCallback(responseCallback), request);
         }
 
@@ -98,25 +96,25 @@ namespace DataLayer.Libs.Helpers.Net
             return this.ExtraParams;
         }
 
-        protected string PrepareRequest()
-        {
-            string address = "";
-            for (int i = 0; i < this.Params.Keys.Count; i++)
-            {
-                var key = this.Params.Keys.ElementAt(i);
-                var value = this.Params[key];
+        //protected string PrepareRequest()
+        //{
+        //    string address = "";
+        //    for (int i = 0; i < this.Params.Keys.Count; i++)
+        //    {
+        //        var key = this.Params.Keys.ElementAt(i);
+        //        var value = this.Params[key];
 
-                if (address != "")
-                {
-                    address += "&";
-                }
+        //        if (address != "")
+        //        {
+        //            address += "&";
+        //        }
 
-                address += key + "=" + value;
-            }
+        //        address += key + "=" + value;
+        //    }
 
 
-            return address;
-        }
+        //    return address;
+        //}
 
         public void SetParams(Dictionary<string, string> _params)
         {

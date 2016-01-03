@@ -6,7 +6,7 @@ Installation
 PostClient is available through [nuget](https://www.nuget.org)
 
 ```sh
-PM> Install-Package DataLayerLibs
+PM> Install-Package DataLayerLibsUniversal
 ```
 
 Helpers
@@ -14,8 +14,10 @@ Helpers
   - DataLayer.Libs.Helpers.DateHelpers
     - UnixTimeStampToDateTime
 	- DateTimeToUnitTimeStamp
-  - DataLayer.Libs.Helpers
+  - DataLayer.Libs.Helpers.StringHelper
     - ParseQueryString
+	- RandomString
+	- URLEncode
   - DataLayer.Libs.Helpers.Net
 
   

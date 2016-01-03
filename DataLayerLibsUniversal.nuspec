@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>DataLayerLibs</id>
-    <version>1.0.0.0</version>
-    <title>Different helpers</title>
+    <id>DataLayerLibsUniversal</id>
+    <version>1.0.0.1</version>
+    <title>Different helpers (prtable)</title>
     <authors>Sergey Zinchenko</authors>
     <owners>DataLayer.ru</owners>
     <projectUrl>http://datalayer.ru</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Different helpers</description>
-    <releaseNotes>First release.</releaseNotes>
+    <releaseNotes>Some fixes</releaseNotes>
     <copyright>DataLayer.ru 2016</copyright>
-    <tags>helpers connector string</tags>
+    <tags>helpers connector string portable</tags>
   </metadata>
 </package>

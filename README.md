@@ -3,10 +3,10 @@ Helpers
 
 Installation
 ------------
-PostClient is available through [nuget](https://www.nuget.org)
+DataLayerLibs is available through [nuget](https://www.nuget.org)
 
 ```sh
-PM> Install-Package DataLayerLibsUniversal
+PM> Install-Package DataLayerLibs
 ```
 
 Helpers

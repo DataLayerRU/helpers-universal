@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/__docs/WindowsIcons-master
+/__docs
+/obj/Debug
+/obj/Release
+/Bin/ARM
+/Bin/Debug
+/Bin/Release
+/Bin/x86
+/obj/*.*
+/Bin/*.*
+/packages
+*.suo
+*.sln
+*.user
+*.csproj
+/Backup

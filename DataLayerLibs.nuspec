@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DataLayerLibs</id>
+    <version>1.0.0.0</version>
+    <title>Different helpers</title>
+    <authors>Sergey Zinchenko</authors>
+    <owners>DataLayer.ru</owners>
+    <projectUrl>http://datalayer.ru</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Different helpers</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>DataLayer.ru 2016</copyright>
+    <tags>helpers connector string</tags>
+  </metadata>
+</package>

@@ -3,10 +3,10 @@ Helpers
 
 Installation
 ------------
-PostClient is available through [nuget](https://www.nuget.org)
+DataLayerLibs is available through [nuget](https://www.nuget.org)
 
 ```sh
-PM> Install-Package DataLayerLibs
+PM> Install-Package DataLayerLibsUniversal
 ```
 
 Helpers
@@ -14,15 +14,17 @@ Helpers
   - DataLayer.Libs.Helpers.DateHelpers
     - UnixTimeStampToDateTime
 	- DateTimeToUnitTimeStamp
-  - DataLayer.Libs.Helpers
+  - DataLayer.Libs.Helpers.StringHelper
     - ParseQueryString
+	- RandomString
+	- URLEncode
   - DataLayer.Libs.Helpers.Net
 
   
 The MIT License (MIT)
 ---------------------
 
-Copyright (c) 2016 Sergey Zinchenko, [DataLayer.ru](http://datalayer.ru/)
+Copyright (c) 2016 Sergey Zinchenko, ProfessionalWeb
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

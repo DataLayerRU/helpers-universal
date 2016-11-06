@@ -9,7 +9,7 @@
     <projectUrl>http://web-development.pw</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Different helpers</description>
-    <releaseNotes>Net helpers</releaseNotes>
+    <releaseNotes>First release.</releaseNotes>
     <copyright>ProfessionalWeb 2016</copyright>
     <tags>helpers connector string</tags>
   </metadata>

@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DataLayerLibs")]
 [assembly: AssemblyDescription("Different helpers")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("DataLayer.ru")]
+[assembly: AssemblyCompany("ProfessionalWeb")]
 [assembly: AssemblyProduct("DataLayerLibs")]
-[assembly: AssemblyCopyright("DataLayer.ru ©  2016")]
+[assembly: AssemblyCopyright("ProfessionalWeb ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("")]
@@ -26,5 +26,5 @@ using System.Runtime.InteropServices;
 // Можно задать все значения или принять номера сборки и редакции по умолчанию 
 // указав "*", как показано ниже:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("1.0.2.0")]
+[assembly: AssemblyFileVersion("1.0.2.0")]
